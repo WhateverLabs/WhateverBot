@@ -5,7 +5,7 @@ import simplematrixbotlib as botlib
 import requests
 
 config = botlib.Config()
-config.join_on_invite = True
+config.join_on_invite = False # Change for initial invites if needed
 config.encryption_enabled = True
 store_path = './crypt_storage/'
 config.emoji_verify = True
